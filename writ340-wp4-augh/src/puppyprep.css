@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+div {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(213, 206, 198);
+}
+
+.main-left button{
+    margin-top: 15px;
+    background-color: #7f7973;
+    font-size: 20px;
+    color: rgb(199, 194, 175);
+}
+
+.main-left button:hover {
+    background-color: rgb(157, 146, 130);
+    color: #58534e;
+}
+
+.homepage {
+    padding-bottom: 50px;
+}
+
+.homepage h1 {
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #7f7973;
+    text-shadow: 2px 1px #938f8f;
+    /* text-align: center; */
+}
+
+.homepage h3 {
+    text-align: left;
+}
+
+.home-main img {
+    height: 500px;
+    width: 465px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.quizzes h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.theconversation.com/files/377569/original/file-20210107-17-q20ja9.jpg?ixlib=rb-1.1.0&rect=278%2C340%2C4644%2C3098&q=45&auto=format&w=926&fit=clip');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 60px;
+    color: #c6bdb3;
+    text-shadow: 2px 1px #938f8f;
+}
+
+.adopt h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.prismic.io/belongtest/36e01970-b366-4214-9bc1-b5a7299a9574_woman-with-his-golden-labradoodle-dog-reading-at-home-picture-id1147997709.jpg?auto=compress,format');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 60px;
+    color: #c6bdb3;
+    text-shadow: 2px 1px #938f8f;
+}
+
+/* .home-sub img {
+    height: 680px;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.homepage .container {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.homepage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(211, 207, 207);
+
+} */
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+}
+  
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(188, 179, 179);
+}
+
+/* 
+.container {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.quizzes h4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.adopt .dog-card {
+    height: 400px;
+    width: 800px;
+    background-color: #c6bdb3;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.desc {
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 15px;
+    color: #706b66;
+}
+
+.nav-link {
+    color: #706b66;
+}
+
+.nav-link:hover {
+    color: #4c463f;
+}
+
+.navbar-brand {
+    color: #59544f;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-brand:hover {
+    color: #4c463f;
+}
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    padding: 0px;
+    font-size: 1.1em;
+}
+
+h2 {
+    color: #5d5955;
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    color: #5d5955;
+    text-align: center;
+}
+
+.desc em {
+    color:rgb(155, 134, 115);
+}
+
+.adopt img {
+    height: 360px;
+    border-radius: 25px;
+    object-fit: cover;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.adopt h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5d5955;
+}
+
+.shelters {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.shelters a {
+    color: rgb(155, 134, 115);
+}
+
+.shelters a:hover {
+    color:#5d5955;
+}
