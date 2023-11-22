@@ -86,7 +86,6 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(211, 207, 207);
-
 } */
 
 .each-slide-effect > div {
@@ -111,9 +110,22 @@ div {
 } */
 
 .quizzes h4 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color:rgb(116, 100, 86)
+}
 
+.quiz {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 30px;
+    outline: 5px solid rgb(116, 100, 86);
+    border-radius: 30px;
+}
+
+.quizzes img {
+    border-radius: 30px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 30px;
 }
 
 .adopt .dog-card {
