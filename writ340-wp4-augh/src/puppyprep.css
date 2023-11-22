@@ -119,6 +119,8 @@ div {
     margin: 30px;
     outline: 5px solid rgb(116, 100, 86);
     border-radius: 30px;
+    color:rgb(116, 100, 86);
+    text-decoration: none;
 }
 
 .quizzes img {
